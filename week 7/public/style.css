@@ -5,3 +5,15 @@ body {
 .about {
     font-size: 70px;
 }
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+nav > a:visited{
+    color: black;
+}
