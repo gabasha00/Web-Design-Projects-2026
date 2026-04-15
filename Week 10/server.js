@@ -74,9 +74,9 @@ app.post('/upload', upload.single('theimage'), (req, res) => {
 
 	// what does the insert function do?
 	// A: it saves and puts into database
-	database.insert(dataToBeStored);
+	database.insert(data);
 
-	resopnse.redirect('/');
+	res.redirect('/');
 });
 
 // what does the number signify?
