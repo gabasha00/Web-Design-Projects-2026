@@ -18,9 +18,9 @@
       </form>
     <div class="all-posts">
       <!-- add the variable in response.render) -->
-        {% for post in ____ %}
+        {% for post in sendingToClient %}
         {# what is the difference between {%%} and {{ }} ? #}
-        {# A: #}
+        {# A: code go in percent symbols, only variables into double curly braces #}
             <div class='single-post'>
                 <span> {{post.date}} </span>
                 <a href="/post/{{post._id}}"><img src='{{post.image}}'></a>
